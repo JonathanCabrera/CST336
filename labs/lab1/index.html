@@ -1,46 +1,66 @@
 <!DOCTYPE html>
 <html>
-<!--
 
-First Website
-and comment
-in html
-(comments can span multiple lines)
-
--->
-
-<!-- This is the head -->
-<!-- All styles and javascript go inside the head -->
     <head>
         <meta charset="utf-8" />
         <title> Lab 1: Jonathan's Personal Website </title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     </head>
-<!-- closing head -->
-
-    <!-- This is the body -->
-    <!-- This is where we place the content of our website -->
+    
     <body>
-        
         <header>
             <h1> Jonathan Cabrera </h1>
         </header>
         
         <nav>
             <hr width="50%" />
-            <a href="index.html"> Home </a>
+            <a href="index.html" style="color:blue;"> Home </a>
             <a href="about.html"> About </a>
             <a href="contact.html"> Contact Me </a>
         </nav>
         
-        <!-- This is the footer -->
-        <!-- The footer goes inside the body but not always -->
-        <footer>
-            
-            
-        </footer>
-        <!-- closing footer -->
+        <br />
+        <br />
         
+        <main>
+            
+            <figure id="me">
+                <img src="img/jonathan.jpg" alt="Picture of Jonathan Cabrera" width=550 height=400 />
+            </figure>
+        
+            <div id="welcometText">
+                Hello! <br />
+                <p>Thank you for visiting my professional portfolio </p>
+                
+                <p>I am a Software Engineering student at California State University, Monterey Bay.</p>
+                
+                <p>I recently did an internship at Facebook as a Facebook University intern.
+                   I mainly worked with Objective-C. In the duration of this internship I gained skills
+                   that are important in the industry. I also become aware of area that I need to improve on. As
+                   well as strengthen areas that I was previously weak in.
+                 
+                </p>
+                
+                <p>Feel free to contact me!</p>
+                
+                <br /><br />
+                
+                <em>"With ordinary talent and extraordinary <strong>perseverance</strong> all things are attainable</em><br />
+                -Thomas F. Buxton
+        
+            </div>
+        
+        </main>
+        
+        <footer>
+           <hr>
+            Internet Programming. 2018&copy; Cabrera <br/>
+            <strong> Disclaimer </strong> The information in this webpage is <strong>fictitous.</strong> </br>
+            It is used for academic purpose only. </br>
+             <figure id="csumb">
+                <img src="img/csumb.png" alt="Picture of CSUMB Logo "width=150 height=60 />
+            </figure>
+        </footer>
     </body>
-    <!-- closing body -->
-
 </html>
