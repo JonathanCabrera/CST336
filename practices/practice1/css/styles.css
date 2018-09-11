@@ -1,0 +1,30 @@
+#socad {
+    background-color: #0a0d3d;
+    color: white;
+    height: 65px;
+    width: 100%;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#main {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#des {
+    padding-left: 40px;
+    padding-top: 10px;
+} 
+
+h1 {
+    padding-left: 40px;
+}
+h4 {
+    padding-left: 40px;
+}
+ul {
+    padding-left: 75px;
+}

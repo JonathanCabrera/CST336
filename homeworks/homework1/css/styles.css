@@ -1,0 +1,68 @@
+header, main, nav, footer {
+    text-align: center;
+}
+
+body {
+    padding-right: 500px;
+    background-color: white;
+    color: gray;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    color: blue;
+}
+
+nav a:hover {
+    border-bottom: 4px;
+    font-size: 1em;
+    transition: .2s;
+}
+
+#main, #main_java, #main_cpp, #main_python {
+    margin: 40px;
+    border: 3px solid #4286f4;
+    float: left;
+    
+}
+
+#main p {
+    padding-left: 30px;
+}
+
+h3 {
+    padding-left: 10px;
+}
+h1 {
+    padding-left: 10px;
+
+}
+
+h4 {
+    padding-left: 30px;
+
+}
+
+#main_java p, #main_cpp p, #main_python p {
+    padding-left: 50px;
+
+}
+
+#photo img{
+   width: auto;
+   max-height: 100%;
+}
+
+#row {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+
+}
+#photo {
+  width: 100px;
+
+}
