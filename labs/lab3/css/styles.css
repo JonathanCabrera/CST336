@@ -1,0 +1,140 @@
+h1 {
+    border-bottom:10px;
+    text-decoration:none;
+    color:#42bff4;
+}
+
+
+
+body {
+    background-image: url("../img/background/ploy7.jpg"); /* new tag */
+    background-size: 80%;
+    /*background-repeat: no-repeat;*/
+    text-align: center;
+    background-color: black;
+}
+
+hr{
+    text-align: center;
+    /*margin: 2%;*/
+    border-style: ridge;
+    border-width: 2px;
+    border-radius: 30px;
+    width: 100%;
+    
+}
+
+h5 {
+    font-size: 15px;
+}
+
+#playerpoints{
+    
+    font-size: 1.5em;
+    text-align: right;
+    color: white;
+    font: italic bold 20px/30px Georgia, serif;
+}
+
+table.darkTable {
+  /*background-color: #4A4A4A;*/
+    width: 50%;
+    border-collapse: collapse;
+    
+}
+table.darkTable td, table.darkTable th {
+    /*border-style: dotted;*/
+    /*border: 3px ridge #EEEEEE;*/
+    padding: 3px 2px;
+}
+
+table.darkTable thead th{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 10px;
+    -webkit-box-shadow:0px 0px 10px 10px #33212e ;
+    -moz-box-shadow:0px 0px 10px 10px #33212e ;
+    box-shadow:0px 0px 10px 10px #33212e ;
+    
+    /*border-left: 3px ridge #EEEEEE;*/
+    /*border-right: 3px ridge #EEEEEE;*/
+    /*border-top: 3px ridge #EEEEEE;*/
+    /*border-bottom: 3px ridge #EEEEEE;*/
+    background-color: black;
+    background-image: url("../img/d.jpg");
+    border-radius: 40px;
+}
+
+table.darkTable thead th {
+
+    -webkit-box-shadow:0px 0px 10px 10px #33212e ;
+    -moz-box-shadow:0px 0px 10px 10px #33212e ;
+    box-shadow:0px 0px 10px 10px #33212e ;
+
+}
+
+.tbody {
+    opacity: 60;
+}
+
+#total {
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    font: italic bold 20px/30px Georgia, serif;
+}
+
+footer {
+    font-size: .9em;
+    color: white;
+    text-align: center;
+}
+
+input {
+    background-color: #FFCB08; 
+    border: none;
+    color: white;
+    padding: 25px 34%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    -webkit-transition-duration: 0.6s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+    
+}
+
+input {
+    background-color: black; 
+    color: #FFCB08; 
+    border: 10px;
+    border-radius: 30px;
+}
+
+input:hover {
+    background-color: #FFCB08;
+    color: #FFCB08;
+}
+
+#time {
+    font-size: 1em;
+    text-align: center;
+    color: #003399;
+    font-family: monospace;
+    font: italic bold 20px/30px Georgia, serif;
+}
+#time_td {
+    background-color: #FFC000;
+    border-radius: 100px;
+    
+}
+#playerTable {
+    border-spacing: 5px 15px;
+    background-color: grey;
+    border-radius: 100px;
+}
