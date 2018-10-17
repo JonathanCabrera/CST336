@@ -32,7 +32,7 @@ if (isset($_GET["keyword"])) {  //checks if the form has been submitted
         <link rel="stylesheet" href="css/styles.css" type="text/css" />
         
         <style>
-            
+            @import url("css/styles.css");
             body {
                 
                 background-image: url(<?=$backgroundImage?>);

@@ -1,0 +1,14 @@
+h1 {
+    padding-right: 500px;
+    background-color: white;
+    color: blue;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    color: blue;
+} 
+}
