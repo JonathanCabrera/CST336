@@ -25,9 +25,6 @@
         $newItem['img'] = $_POST['itemImg'];
         $newItem['id'] = $_POST['itemId'];
         
-        
-        
-        
         foreach ($_SESSION['cart'] as &$item) {
             if ($newItem['id'] == $item['id']) {
                 $item['quantity'] += 1;
