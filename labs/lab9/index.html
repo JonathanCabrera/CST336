@@ -6,6 +6,8 @@
     <title>AJAX: Sign Up Page</title>
 
     <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
     <script>
         function validateForm() {
 
@@ -47,7 +49,15 @@
 
                         //alert(data.city);
                         $("#city").html(data.city);
+                        $("#lat").html(data.latitude);
+                        $("#long").html(data.longitude);
+                        if (!data) {
+                            $("#zipError").html("Error: Zip code not found");
+                            $("#zipError").css("color", "red");
+                        } else {
+                            $("#zipError").html("");
 
+                        }
 
                     },
                     complete: function(data, status) { //optional, used for debugging purposes
@@ -130,9 +140,9 @@
     <form onsubmit="return validateForm()">
         <fieldset>
             <legend>Sign Up</legend>
-            First Name: <input type="text"><br> Last Name: <input type="text"><br> Email: <input type="text"><br> Phone Number:<input type="text"><br><br> Zip Code: <input type="text" id="zip"><br> City: <span id="city"></span>
-            <br> Latitude:
-            <br> Longitude:
+            First Name: <input type="text"><br> Last Name: <input type="text"><br> Email: <input type="text"><br> Phone Number:<input type="text"><br><br> Zip Code: <input type="text" id="zip"> <span id="zipError"></span><br> City: <span id="city"></span>
+            <br> Latitude: <span id="lat"></span>
+            <br> Longitude: <span id="long"></span>
             <br><br> State:
             <select id="state">
                     <option value="">Select One</option>
