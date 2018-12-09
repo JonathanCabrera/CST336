@@ -15,22 +15,20 @@
    
     </head>
     <body>
-        <?php 
-          include 'inc/header.php';
-        ?>
+        
+	  <?php 
+	    include 'inc/header.php';
+	    
+	  ?>
         <!-- Display Carousel here  -->
         
         
-        <a class="btn btn-outline-success" href="adoptions.php" role="button">Adopt Now</a>
+        <a class="btn btn-outline-success" href="pets.php" role="button">Adopt Now</a>
         <br><br><br>
-        <hr>
-        <footer>
-            
-            Disclaimer: The information on this site is fake.<br>
-            &copy; Lara 2018
-            
-        </footer>
+        <?php
+        include 'inc/footer.php';
         
+        ?>
         </body>
 
 </html>

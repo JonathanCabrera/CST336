@@ -1,4 +1,4 @@
-	<!--Add main menu here -->
+<!--Add main menu here -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">CSUMB</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,3 +24,4 @@
           <h1> CSUMB Animal Shelter</h1>
           <h2> The "official" animal adoption website of CSUMB </h2>
         </div>
+        

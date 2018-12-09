@@ -13,7 +13,8 @@ $stmt = $dbConn->prepare($sql);
 $stmt->execute($parameters);
 $record = $stmt->fetch(PDO::FETCH_ASSOC);
 
-// print_r($record);
+print_r($record);
 echo json_encode($record);
+
 
 ?>
